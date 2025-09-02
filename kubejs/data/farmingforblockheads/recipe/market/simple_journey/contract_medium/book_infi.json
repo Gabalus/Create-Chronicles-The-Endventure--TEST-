@@ -1,0 +1,22 @@
+{
+  "type": "farmingforblockheads:market",
+  "category": "farmingforblockheads:contract_medium",
+  "preset": "simple_journey:empty",
+  "payment": {
+    "ingredient": {
+      "item": "kubejs:token_medium"
+    },
+    "count": 2
+  },
+  "result": {
+    "count": 1,
+    "item": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "minecraft:infinity": 1
+        }
+      }
+    }
+  }
+}

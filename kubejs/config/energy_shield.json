@@ -1,0 +1,22 @@
+{
+  "baseMax": 50,
+  "maxFromArmorPerPoint": 0.5,
+  "maxFromToughnessPerPoint": 1,
+  "bonusFlat": 0,
+  "bonusPercent": 0.0,
+  "rechargeDelayTicks": 160,
+  "rechargePerSecond": 15,
+  "onKillGainFlat": 10,
+  "leechPercent": 0.0,
+  "minDamageToBreakRecharge": 0.1,
+  "absorbAfterMitigation": true,
+  "showHud": true,
+  "hud": {
+    "x": 8,
+    "y": 26,
+    "width": 120,
+    "height": 9,
+    "showNumeric": true,
+    "showPercent": true
+  }
+}

@@ -1,0 +1,16 @@
+["SwordSkillEffect Settings"]
+	#Please adjust according to the Shader
+	# Default: 0
+	# Range: 0 ~ 3
+	SwordSkillEffect_System = 0
+
+	["SwordSkillEffect Settings"."HUD Settings"]
+		# Default: 0
+		# Range: -1920 ~ 1920
+		hudPosX = 0
+		# Default: 0
+		# Range: -1080 ~ 1080
+		hudPosY = 0
+		# Default: 24
+		# Range: 1 ~ 64
+		hudScale = 24

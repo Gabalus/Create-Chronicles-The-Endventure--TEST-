@@ -1,0 +1,26 @@
+{
+  "type": "farmingforblockheads:market",
+  "category": "farmingforblockheads:maps",
+  "preset": "simple_journey:empty",
+  "payment": {
+    "ingredient": {
+      "item": "magic_coins:gold_coin"
+    },
+    "count": 4
+  },
+  "result": {
+    "count": 1,
+    "item": "irons_spellbooks:furled_map",
+    "components": {
+      "irons_spellbooks:furled_map_data": {
+        "destination": "cataclysm:acropolis",
+        "descriptionOverride": {
+          "translate": "Acropolis"
+        },
+        "dimension": "minecraft:overworld"
+      },
+      "minecraft:lore":["{\"text\":\"[L_Ender Cataclysm - Overworld]\",\"italic\":false,\"color\":\"gray\"}"],      
+      "minecraft:custom_name": "[{\"text\": \"Acropolis Map\"}]"
+    }
+  }
+}

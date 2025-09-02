@@ -1,0 +1,86 @@
+{
+  "culling_strike": {
+    "title": "Culling Strike",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "minecraft:wither"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "description": "Culling Strikes instantly kill enemies if their life is below a certain threshold (~30% for common foes, 10% for tougher foes, 5% for bosses). This is checked before damage is dealt.",
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "culling_strike"
+        }
+      }
+    ]
+  },
+  "melee_damage+10%": {
+    "title": "Melee Damage",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l+10%§r §9increased Melee Damage", "italic": false }
+      ]
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 0.1,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "armour+20": {
+    "title": "Armour",
+    "icon": {
+      "type": "texture",
+      "data": {
+        "texture": "atlas_of_arcanum:textures/icons/passive_armor.png"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l+0.2§r §9to Armour", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
+  }
+}

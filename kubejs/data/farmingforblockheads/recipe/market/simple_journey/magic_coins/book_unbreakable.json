@@ -1,0 +1,23 @@
+{
+  "type": "farmingforblockheads:market",
+  "category": "farmingforblockheads:magic_coins",
+  "preset": "simple_journey:empty",
+  "payment": {
+    "ingredient": {
+      "item": "magic_coins:gold_coin"
+    },
+    "count": 7
+  },
+  "result": {
+    "count": 1,
+    "item": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "mastery3:unbreakable": 1
+        }
+      },
+      "minecraft:custom_name": "{\"text\":\"True Unbreakable! (It doesn't repair the item)\"}"
+    }
+  }
+}

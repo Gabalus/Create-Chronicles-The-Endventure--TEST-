@@ -1,0 +1,27 @@
+[element_attachment]
+	#Default element attachment amount for spells without explicit override
+	# Default: 200
+	# Range: > 0
+	default = 200
+	#ICD hit step: allow elemental application on hits 1, 1+step, 1+2*step, ...
+	#Set to 3 to allow 1st, 4th, 7th hits, etc.
+	# Default: 3
+	# Range: > 1
+	icd_hit_step = 3
+	#ICD time window in ticks: allow application if last application is older than this window.
+	#50 ticks = 2.5 seconds at 20 tps
+	# Default: 50
+	# Range: > 0
+	icd_time_ticks = 50
+	#Per-spell overrides in the format modid:spell_id=amount.
+	#Multiple entries separated by comma.
+	#Example: irons_spellbooks:firebolt=250, irons_spellbooks:ice_shard=150
+	#Unknown or malformed entries will be ignored.
+	overrides = ""
+	#Per-spell element attachment overrides in the format modid:spell_id=element_id.
+	#This allows specific spells to attach custom elements instead of using school-based mapping.
+	#Multiple entries separated by comma.
+	#Example: irons_spellbooks:firebolt=lightning, irons_spellbooks:ice_shard=fire
+	#Element IDs should match those defined in element_attachments data files.
+	#Unknown or malformed entries will be ignored.
+	spell_element_overrides = ""

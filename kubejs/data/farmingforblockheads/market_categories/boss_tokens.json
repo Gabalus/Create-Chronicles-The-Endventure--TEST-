@@ -1,0 +1,7 @@
+{
+  "tooltip": "Boss Token",
+  "icon": {
+    "id": "kubejs:boss_token"
+  },
+  "sortIndex": 6
+}

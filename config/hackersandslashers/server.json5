@@ -1,0 +1,21 @@
+{
+	// Changes the base riposte critical multiplier
+	"base_riposte_multiplier": 1.25,
+	// Changes the base sneaky attack critical multiplier
+	"base_sneaky_attack_multiplier": 1.5,
+	// Changes the base headshot critical multiplier
+	"base_headshot_multiplier": 1.75,
+	// Disables the weapon type based critical modifier
+	"enable_additional_multipliers": true,
+	// Changes the Stealth system environmental weights:
+	"IS_INVISIBLE_WEIGHT": 80,
+	"IS_BEHIND_WEIGHT": 70,
+	"IS_AT_DARK_PLACE": 50,
+	"SPRINTING_WEIGHT": 70,
+	"ON_BUSH_WEIGHT": 60,
+	"LAST_ATTACKER_WEIGHT": 40,
+	"BEING_SEEN_WEIGHT": 40,
+	"CROUCHING_WEIGHT": 25,
+	"RAINING_WEIGHT": 15,
+	"MOVING_WEIGHT": 10
+}

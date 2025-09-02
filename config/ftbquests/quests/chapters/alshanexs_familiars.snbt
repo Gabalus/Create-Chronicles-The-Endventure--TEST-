@@ -1,0 +1,673 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alshanexs_familiars"
+	group: "10BAE746B6F04D66"
+	icon: {
+		id: "alshanex_familiars:familiar_tome"
+	}
+	id: "2385B4F2FA029016"
+	images: [
+		{
+			color: 14522965
+			height: 1.0d
+			image: "chalk:block/mark/arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			color: 16733525
+			height: 1.0d
+			image: "chalk:block/mark/arrow"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 4.0d
+		}
+	]
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2651428AF7D72328"
+			rewards: [{
+				count: 5
+				id: "06B986CF1349700B"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				advancement: "alshanex_familiars:tame_mage"
+				criterion: ""
+				id: "72D0F4B1C1F39444"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2651428AF7D72328"]
+			id: "25C81EB613F46A69"
+			tasks: [{
+				id: "1560C78B1D04BB29"
+				item: { count: 1, id: "alshanex_familiars:mage_trinket" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			id: "7B09AFE245BA7808"
+			rewards: [{
+				count: 5
+				id: "647206CDA181076C"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				advancement: "alshanex_familiars:tame_archmage"
+				criterion: ""
+				id: "621FAFFB9E6FCD94"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 1.9500000000000002d
+		}
+		{
+			id: "20BFB23E1ADDC3DF"
+			rewards: [{
+				count: 5
+				id: "5C300B6D9A8C7936"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				advancement: "alshanex_familiars:tame_necromancer"
+				criterion: ""
+				id: "22B97B98D9432D8C"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 3.9000000000000004d
+		}
+		{
+			id: "692D79D601534A2E"
+			rewards: [{
+				count: 5
+				id: "24302A23E4A9B655"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				advancement: "alshanex_familiars:tame_summoner"
+				criterion: ""
+				id: "4A09BBB33A081513"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			id: "5AA39CCAEED433CA"
+			rewards: [{
+				count: 5
+				id: "24D9B36586D31D65"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				advancement: "alshanex_familiars:tame_hunter"
+				criterion: ""
+				id: "1294DDA4CA3BA919"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 3.9000000000000004d
+		}
+		{
+			id: "54480115AF9A1DAD"
+			rewards: [{
+				count: 5
+				id: "365697EDCDE3DD89"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				advancement: "alshanex_familiars:tame_druid"
+				criterion: ""
+				id: "3E95CDD54C37B12D"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "47F3B09688DFA1DC"
+			rewards: [{
+				count: 5
+				id: "236E7C942ED00701"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				advancement: "alshanex_familiars:tame_illusionist"
+				criterion: ""
+				id: "45DFC07AB6445EE4"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			id: "58EE67ECB33D6AE9"
+			rewards: [{
+				count: 5
+				id: "0AD88C336E0AB3EA"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				advancement: "alshanex_familiars:tame_plague"
+				criterion: ""
+				id: "1078555E14FEE73E"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			id: "5D0DCD2B1AB653BB"
+			rewards: [{
+				count: 5
+				id: "4E2E0CA7578995DC"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				advancement: "alshanex_familiars:tame_scorcher"
+				criterion: ""
+				id: "5D561431EE0FC84A"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "3DD814B346F1B543"
+			rewards: [{
+				count: 5
+				id: "2DBB3A7A8AF4588C"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				advancement: "alshanex_familiars:tame_cleric"
+				criterion: ""
+				id: "0CBCC0758B51A7C0"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			id: "2A844214CE94E140"
+			rewards: [{
+				count: 5
+				id: "607BD7275F7DF5D2"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				advancement: "alshanex_familiars:tame_bard"
+				criterion: ""
+				id: "7CE3CA2DCA81170E"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["54480115AF9A1DAD"]
+			id: "4CCA4CC40699E202"
+			tasks: [{
+				id: "5AADA65FED7D7D94"
+				item: { count: 1, id: "alshanex_familiars:forest_trinket" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5AA39CCAEED433CA"]
+			id: "0EC55B2CACD070C2"
+			tasks: [{
+				id: "7B628574BCA3D8B2"
+				item: { count: 1, id: "alshanex_familiars:hunter_trinket" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["20BFB23E1ADDC3DF"]
+			id: "1DDDE80A3D76DD30"
+			tasks: [{
+				id: "0369392984FBA988"
+				item: { count: 1, id: "alshanex_familiars:necromancer_trinket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["692D79D601534A2E"]
+			id: "1F149DB505D3BC7D"
+			tasks: [{
+				id: "1D2B6A20AC1EF40F"
+				item: { count: 1, id: "alshanex_familiars:summoner_trinket" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7B09AFE245BA7808"]
+			id: "3252CBA260461444"
+			tasks: [{
+				id: "5298BE31BC861A9A"
+				item: { count: 1, id: "alshanex_familiars:archmage_trinket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["47F3B09688DFA1DC"]
+			id: "75F8A5AAEB67C3AA"
+			tasks: [{
+				id: "409248246AEEE282"
+				item: { count: 1, id: "alshanex_familiars:illusionist_trinket" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5D0DCD2B1AB653BB"]
+			id: "0842349EE8879544"
+			tasks: [{
+				id: "13B0655CA8493190"
+				item: { count: 1, id: "alshanex_familiars:scorcher_trinket" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3DD814B346F1B543"]
+			id: "2C1C7767F66A6453"
+			tasks: [{
+				id: "0A8D90F84B987514"
+				item: { count: 1, id: "alshanex_familiars:cleric_trinket" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["58EE67ECB33D6AE9"]
+			id: "192C9C5B4F236448"
+			tasks: [{
+				id: "669A7E229EB70404"
+				item: { count: 1, id: "alshanex_familiars:plague_trinket" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2A844214CE94E140"]
+			id: "79604D7C48A2B350"
+			tasks: [{
+				id: "105D51EDBA7F5E05"
+				item: { count: 1, id: "alshanex_familiars:bard_trinket" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["627A25524F94FB34"]
+			id: "6907C5959F72930E"
+			shape: "rsquare"
+			tasks: [{
+				id: "506A6BB4004B8A33"
+				item: { components: { "ftbquests:missing_item": "alshanex_familiars:base_soul_curio" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["627A25524F94FB34"]
+			id: "3D23B7E2B837EA28"
+			shape: "rsquare"
+			tasks: [{
+				id: "013C670BE1AE3D24"
+				item: { components: { "ftbquests:missing_item": "alshanex_familiars:complete_soul_curio" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["627A25524F94FB34"]
+			id: "6C7C101DFE4E67F3"
+			shape: "rsquare"
+			tasks: [{
+				id: "42F084DB9C87D591"
+				item: { count: 1, id: "alshanex_familiars:healing_curio" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["627A25524F94FB34"]
+			id: "5C63E2E0D537CF6B"
+			shape: "rsquare"
+			tasks: [{
+				id: "62EC4FD2FD280DCE"
+				item: { count: 1, id: "alshanex_familiars:invisibility_curio" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["627A25524F94FB34"]
+			id: "2AEF1BFD3C4C0F7A"
+			shape: "rsquare"
+			tasks: [{
+				id: "5B0ABBEA1793E79E"
+				item: { count: 1, id: "alshanex_familiars:statue_curio" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["627A25524F94FB34"]
+			id: "7220794AE44350FA"
+			shape: "rsquare"
+			tasks: [{
+				id: "1DFDA44F54AFA8C5"
+				item: { count: 1, id: "alshanex_familiars:evasion_curio" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["182280CF12911D30"]
+			id: "3409D29DC6A2360E"
+			tasks: [{
+				id: "5628979A94CD2048"
+				item: { count: 1, id: "alshanex_familiars:broken_shield" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["182280CF12911D30"]
+			id: "41338251AEE28EE2"
+			tasks: [{
+				id: "0F792C8FE98D7F2F"
+				item: { count: 1, id: "alshanex_familiars:life_gem" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["182280CF12911D30"]
+			id: "5FE710403BE1AAF5"
+			tasks: [{
+				id: "48C7DE51DD7F1A4C"
+				item: { count: 1, id: "alshanex_familiars:rusty_helmet" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["182280CF12911D30"]
+			id: "0560F717010F1833"
+			tasks: [{
+				id: "05D743315470091C"
+				item: { count: 1, id: "alshanex_familiars:strange_mushroom" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["73BD8A69D47D4C98"]
+			id: "5D52508105645DD0"
+			tasks: [{
+				id: "2E1A00A6522E3A3D"
+				item: { count: 1, id: "alshanex_familiars:bard_harp" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73BD8A69D47D4C98"]
+			id: "31B55FB90C23284C"
+			tasks: [{
+				id: "0E3F117C2AE30BFC"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "alshanex_familiars:sound_spell_book" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73BD8A69D47D4C98"]
+			id: "7907A37EC21299CD"
+			tasks: [{
+				id: "795E3A53B05D06B5"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "alshanex_familiars:familiar_spellbook" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["182280CF12911D30"]
+			id: "40E256F7660DF8A9"
+			shape: "rsquare"
+			tasks: [{
+				id: "6AAAD7AD0F360497"
+				item: { count: 1, id: "alshanex_familiars:pandora_box" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["627A25524F94FB34"]
+			id: "182280CF12911D30"
+			shape: "rsquare"
+			size: 1.4d
+			tasks: [{
+				id: "3DD7FDAC91290E36"
+				item: { count: 1, id: "alshanex_familiars:familiar_tome" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.8d
+		}
+		{
+			dependencies: ["182280CF12911D30"]
+			id: "093BE9C3E8D400D3"
+			shape: "rsquare"
+			tasks: [{
+				id: "4471A5C77C787056"
+				item: { count: 1, id: "alshanex_familiars:pet_bed" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			hide_until_deps_complete: true
+			icon: {
+				id: "patchouli:guide_book"
+			}
+			id: "627A25524F94FB34"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "56B99567D17C78A2"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 2.85d
+		}
+		{
+			dependencies: ["627A25524F94FB34"]
+			id: "73BD8A69D47D4C98"
+			tasks: [{
+				id: "2C47677865D12DED"
+				item: { count: 1, id: "alshanex_familiars:sound_rune" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["73BD8A69D47D4C98"]
+			id: "3312939A67733194"
+			tasks: [{
+				id: "23F20A6B686E24FE"
+				item: { count: 1, id: "alshanex_familiars:sound_upgrade_orb" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73BD8A69D47D4C98"]
+			id: "244D55FC22B55A11"
+			tasks: [
+				{
+					id: "4C392CC5B3BD508B"
+					item: { count: 1, id: "alshanex_familiars:bard_helmet" }
+					type: "item"
+				}
+				{
+					id: "77B48E505170AA0B"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "alshanex_familiars:bard_chestplate" }
+					type: "item"
+				}
+				{
+					id: "15C4EA0458006C7E"
+					item: { count: 1, id: "alshanex_familiars:bard_leggings" }
+					type: "item"
+				}
+				{
+					id: "0BE9B758240295A2"
+					item: { count: 1, id: "alshanex_familiars:bard_boots" }
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["182280CF12911D30"]
+			id: "32A6059C63E5BFC3"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "6516715F03C50C9B"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(alshanex_familiars:familiar_shards))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: 2.8d
+		}
+		{
+			dependencies: ["32A6059C63E5BFC3"]
+			id: "41CFC641485FE331"
+			tasks: [{
+				id: "7262E9263092F968"
+				type: "checkmark"
+			}]
+			x: -2.25d
+			y: 1.0d
+		}
+	]
+	require_sequential_tasks: true
+}

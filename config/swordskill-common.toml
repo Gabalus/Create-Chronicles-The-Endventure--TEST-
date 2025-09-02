@@ -1,0 +1,17 @@
+["Damage Settings"]
+	#Sword skill damage multiplier
+	# Default: 1.0
+	# Range: 0.1 ~ 1000.0
+	damageMultiplier = 1.0
+	#Sword skill cool down multiplier
+	# Default: 1.0
+	# Range: 0.01 ~ 10.0
+	CoolDownMultiplier = 1.0
+	#The available weapons are set automatically to some extent.
+	AutoWeaponSetting = false
+	#Allow PVP with sword skills
+	pvp = true
+	#Enable Sword Skill Unlock
+	UnlockedSkill = true
+	#Include neutral mobs as attack targets
+	attackNeutralMobs = true

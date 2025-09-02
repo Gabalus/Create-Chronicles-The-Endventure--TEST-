@@ -1,0 +1,15 @@
+{
+  "type": "farmingforblockheads:market",
+  "category": "farmingforblockheads:contract_basic",
+  "preset": "simple_journey:empty",
+  "payment": {
+    "ingredient": {
+      "item": "kubejs:token_basic"
+    },
+    "count": 1
+  },
+  "result": {
+    "count": 1,
+    "item": "create_mechanical_extruder:mechanical_extruder"
+  }
+}

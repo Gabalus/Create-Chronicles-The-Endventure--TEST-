@@ -1,0 +1,15 @@
+{
+  "type": "farmingforblockheads:market",
+  "category": "farmingforblockheads:contract_medium",
+  "preset": "simple_journey:empty",
+  "payment": {
+    "ingredient": {
+      "item": "kubejs:token_medium"
+    },
+    "count": 1
+  },
+  "result": {
+    "count": 1,
+    "item": "minecraft:chorus_fruit"
+  }
+}

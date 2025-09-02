@@ -1,0 +1,74 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "atlas_of_arcanum:font/ability_skill.png",
+      "height": 16,
+      "ascent": 12,
+      "chars": ["\uE001"]
+    },
+    {
+      "type": "bitmap",
+      "file": "atlas_of_arcanum:font/base.png",
+      "height": 16,
+      "ascent": 12,
+      "chars": ["\uE002"]
+    },
+    {
+      "type": "bitmap",
+      "file": "atlas_of_arcanum:font/magic.png",
+      "height": 16,
+      "ascent": 12,
+      "chars": ["\uE003"]
+    },
+    {
+      "type": "bitmap",
+      "file": "atlas_of_arcanum:font/main.png",
+      "height": 16,
+      "ascent": 12,
+      "chars": ["\uE004"]
+    },
+    {
+      "type": "bitmap",
+      "file": "atlas_of_arcanum:font/milestone.png",
+      "height": 16,
+      "ascent": 12,
+      "chars": ["\uE005"]
+    },
+    {
+      "type": "bitmap",
+      "file": "atlas_of_arcanum:font/partial_bonus.png",
+      "height": 16,
+      "ascent": 12,
+      "chars": ["\uE006"]
+    },
+    {
+      "type": "bitmap",
+      "file": "atlas_of_arcanum:font/passive.png",
+      "height": 16,
+      "ascent": 12,
+      "chars": ["\uE007"]
+    },
+    {
+      "type": "bitmap",
+      "file": "atlas_of_arcanum:font/set_bonus.png",
+      "height": 16,
+      "ascent": 12,
+      "chars": ["\uE008"]
+    },
+    {
+      "type": "bitmap",
+      "file": "atlas_of_arcanum:font/special_skill.png",
+      "height": 16,
+      "ascent": 12,
+      "chars": ["\uE009"]
+    },
+    {
+      "type": "bitmap",
+      "file": "atlas_of_arcanum:font/unlock_root.png",
+      "height": 16,
+      "ascent": 12,
+      "chars": ["\uE010"]
+    }
+  ]
+}

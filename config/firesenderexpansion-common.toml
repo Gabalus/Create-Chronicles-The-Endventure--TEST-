@@ -1,0 +1,6 @@
+#If you want to modify stats relating to this mod's spells, check the ISS server config.
+understand = true
+#Should Infused Obsidian Fragments be obtainable through their normal method? Default is true
+fragments_optainable = true
+#Should the Ornate Empty Staff be able to be filled with a black hole? Default is true
+tbate_black_hole_obtainable = true

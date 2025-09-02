@@ -1,0 +1,7 @@
+{
+  "tooltip": "Operator Token",
+  "icon": {
+    "id": "kubejs:token_medium"
+  },
+  "sortIndex": 4
+}

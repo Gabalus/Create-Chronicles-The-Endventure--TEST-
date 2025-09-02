@@ -1,0 +1,7 @@
+{
+  "tooltip": "Apprentice Token",
+  "icon": {
+    "id": "kubejs:token_basic"
+  },
+  "sortIndex": 3
+}

@@ -1,0 +1,13 @@
+{
+	"title": "Atlas of Arcanum",
+	"icon": { "type": "item", "data": { "item": "minecraft:enchanted_book" } },
+	"background": {
+    	"texture": "atlas_of_arcanum:textures/gui/title/background/space_background.png",
+		"width": 1024,
+		"height": 1024,
+		"position": "fill"
+	},
+	"unlocked_by_default": true,
+	"exclusive_root": false
+  }
+  

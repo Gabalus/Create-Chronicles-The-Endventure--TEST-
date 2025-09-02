@@ -1,0 +1,26 @@
+{
+  "type": "farmingforblockheads:market",
+  "category": "farmingforblockheads:maps",
+  "preset": "simple_journey:empty",
+  "payment": {
+    "ingredient": {
+      "item": "magic_coins:gold_coin"
+    },
+    "count": 2
+  },
+  "result": {
+    "count": 1,
+    "item": "irons_spellbooks:furled_map",
+    "components": {
+      "irons_spellbooks:furled_map_data": {
+        "destination": "cataclysm:ruined_citadel",
+        "descriptionOverride": {
+          "translate": "Ruined Citadel"
+        },
+        "dimension": "minecraft:the_end"
+      },
+      "minecraft:lore":["{\"text\":\"[L_Ender Cataclysm - The End]\",\"italic\":false,\"color\":\"gray\"}"],      
+      "minecraft:custom_name": "[{\"text\": \"Ruined Citadel Map\"}]"
+    }
+  }
+}

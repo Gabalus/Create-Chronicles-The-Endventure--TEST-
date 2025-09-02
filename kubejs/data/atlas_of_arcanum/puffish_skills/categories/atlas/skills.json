@@ -1,0 +1,20 @@
+{
+  "armour": {
+    "x": 0,
+    "y": 0,
+    "definition": "armour",
+    "root": true
+  },
+  "melee_damage": {
+    "x": 96,
+    "y": 0,
+    "definition": "melee_damage",
+    "root": true
+  },
+  "culling_strike": {
+    "x": 192,
+    "y": 0,
+    "definition": "culling_strike",
+    "root": true
+  }
+}

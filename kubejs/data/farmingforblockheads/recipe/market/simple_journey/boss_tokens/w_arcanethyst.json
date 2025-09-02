@@ -1,0 +1,15 @@
+{
+  "type": "farmingforblockheads:market",
+  "category": "farmingforblockheads:boss_tokens",
+  "preset": "simple_journey:empty",
+  "payment": {
+    "ingredient": {
+      "item": "kubejs:boss_token"
+    },
+    "count": 6
+  },
+  "result": {
+    "count": 1,
+    "item": "simplyswords:arcanethyst"
+  }
+}

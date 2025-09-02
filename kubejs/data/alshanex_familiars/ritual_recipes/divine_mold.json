@@ -1,0 +1,16 @@
+{
+  "central_item": "irons_spellbooks:blank_rune",
+  "input_items": [
+    "hazennstuff:starkissed_zenalite",
+    "eternal_starlight:soulit_spectator",
+    "hazennstuff:flaming_template",
+    "hazennstuff:deus_essence"
+  ],
+  "result": "hazennstuff:divine_mold",
+  "particle_type": "minecraft:crit",
+  "color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0
+  }
+}

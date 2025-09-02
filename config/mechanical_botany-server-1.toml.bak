@@ -1,0 +1,25 @@
+#.
+#Control certain aspects of the Mechanical Insolator
+[insolator]
+	#.
+	#.
+	#Controls the multiplier of a given processing recipe.
+	# Default: 1
+	# Range: > 1
+	"Processing Time Multiplier" = 1
+	#.
+	#Controls the tank size of the Mechanical Insolator.
+	#Requires you to break and replace the block in order to update the tank size.
+	# Default: 1000
+	# Range: 1000 ~ 16000
+	"Tank Size" = 1000
+
+#.
+#Control certain aspects of the Mechanical Composter
+[composter]
+	#.
+	#.
+	#Controls the multiplier of a given processing recipe.
+	# Default: 1
+	# Range: > 1
+	"Processing Time Multiplier" = 1

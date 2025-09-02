@@ -1,0 +1,26 @@
+{
+  "type": "farmingforblockheads:market",
+  "category": "farmingforblockheads:maps",
+  "preset": "simple_journey:empty",
+  "payment": {
+    "ingredient": {
+      "item": "magic_coins:gold_coin"
+    },
+    "count": 1
+  },
+  "result": {
+    "count": 1,
+    "item": "irons_spellbooks:furled_map",
+    "components": {
+      "irons_spellbooks:furled_map_data": {
+        "destination": "cataclysm:soul_black_smith",
+        "descriptionOverride": {
+          "translate": "Soul Blacksmith"
+        },
+        "dimension": "minecraft:the_nether"
+      },
+      "minecraft:lore":["{\"text\":\"[L_Ender Cataclysm - Nether]\",\"italic\":false,\"color\":\"gray\"}"],      
+      "minecraft:custom_name": "[{\"text\": \"Soul Blacksmith Map\"}]"
+    }
+  }
+}

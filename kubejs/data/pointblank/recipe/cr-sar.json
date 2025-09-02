@@ -1,0 +1,26 @@
+{
+    "type": "create:mechanical_crafting",
+    "accept_mirrored": false,
+    "category": "misc",
+    "key": {
+      "A": {
+        "item": "supplementaries:flint_block"
+      }
+    },
+    "pattern": [
+      "AAAAAAAAA",
+      "AAAAAAAAA",
+      "AAAAAAAAA",
+      "AAAAAAAAA",
+      "AAAAAAAAA",
+      "AAAAAAAAA",
+      "AAAAAAAAA",
+      "AAAAAAAAA",
+      "AAAAAAAAA"
+    ],
+    "result": {
+      "count": 1,
+      "id": "pointblank:cr_sar"
+    },
+    "show_notification": false
+  }

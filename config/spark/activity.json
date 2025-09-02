@@ -1,0 +1,80 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Gabalus",
+      "uniqueId": "4596910c-d5db-4970-8fce-df977fdb2160"
+    },
+    "time": 1756662014734,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/IrunrAmWaq"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Gabalus",
+      "uniqueId": "4596910c-d5db-4970-8fce-df977fdb2160"
+    },
+    "time": 1756659541383,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/S9pgBDbWZ4"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Gabalus",
+      "uniqueId": "4596910c-d5db-4970-8fce-df977fdb2160"
+    },
+    "time": 1756658354190,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/5eUbSY735f"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Gabalus",
+      "uniqueId": "4596910c-d5db-4970-8fce-df977fdb2160"
+    },
+    "time": 1756654753241,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/WHToP7XRkz"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Gabalus",
+      "uniqueId": "4596910c-d5db-4970-8fce-df977fdb2160"
+    },
+    "time": 1756652638351,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/VbWv4OHL01"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "MaoMao_supremacy",
+      "uniqueId": "ebe410a9-3e06-4459-bde7-5abd374b260e"
+    },
+    "time": 1755889569259,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/sqsTe9Er4t"
+    }
+  }
+]

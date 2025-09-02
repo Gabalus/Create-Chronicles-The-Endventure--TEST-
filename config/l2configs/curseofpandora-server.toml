@@ -1,0 +1,518 @@
+[loot]
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	lootLuckFactor = 1.0
+	# Default: 2
+	# Range: 0 ~ 10
+	maxItemGenerated = 2
+
+[attribute]
+	# Default: 2.0
+	# Range: 0.0 ~ 100.0
+	charmOfHealth = 2.0
+	# Default: 2.0
+	# Range: 0.0 ~ 100.0
+	charmOfArmor = 2.0
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	charmOfArmorToughness = 1.0
+	# Default: 0.05
+	# Range: 0.0 ~ 10.0
+	charmOfSpeed = 0.05
+	# Default: 0.05
+	# Range: 0.0 ~ 10.0
+	charmOfDamage = 0.05
+	# Default: 0.05
+	# Range: 0.0 ~ 10.0
+	charmOfCritical = 0.05
+	# Default: 0.05
+	# Range: 0.0 ~ 10.0
+	charmOfArchery = 0.05
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	charmOfHeavyWeapon = 1.0
+	# Default: 2.0
+	# Range: 0.0 ~ 10.0
+	charmOfHeavyWeaponSlow = 2.0
+	# Default: 0.2
+	# Range: 0.0 ~ 10.0
+	charmOfAccuracy = 0.2
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	charmOfAccuracySlow = 0.5
+	# Default: 0.04
+	# Range: 0.0 ~ 1.0
+	charmOfProtection = 0.04
+	# Default: 0.1
+	# Range: 0.0 ~ 10.0
+	charmOfMagic = 0.1
+	# Default: 0.1
+	# Range: 0.0 ~ 10.0
+	charmOfExplosion = 0.1
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	charmOfLuck = 1.0
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	orbOfExecutorAttack = 0.5
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	orbOfExecutorHealth = 0.5
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	orbOfSoulGuardSpeed = 0.2
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	orbOfSoulGuardReduction = 0.1
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	orbOfProsecutorCritRate = 0.1
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	orbOfProsecutorCritDmg = 0.2
+
+[reality]
+	# Default: 3.0
+	# Range: 0.0 ~ 20.0
+	curseOfInertiaCap = 3.0
+	# Default: 0.5
+	# Range: 0.0 ~ 20.0
+	curseOfInertiaBase = 0.5
+	# Default: 0.8
+	# Range: 0.0 ~ 20.0
+	curseOfInertiaBonus = 0.8
+	# Default: 6.0
+	# Range: 0.0 ~ 20.0
+	curseOfProximityCap = 6.0
+	# Default: 2.0
+	# Range: 0.0 ~ 20.0
+	curseOfProximityBase = 2.0
+	# Default: 0.5
+	# Range: 0.0 ~ 20.0
+	curseOfProximityBonus = 0.5
+	# Default: 14
+	# Range: 0 ~ 20
+	curseOfFleshThreshold = 14
+	# Default: 2
+	# Range: 0 ~ 20
+	curseOfFleshDuration = 2
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	curseOfFleshBonus = 1.0
+	# Default: 16
+	# Range: 0 ~ 20
+	curseOfMetabolismThreshold = 16
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	curseOfMetabolismFactor = 0.05
+	# Default: 0.2
+	# Range: 0.0 ~ 10.0
+	curseOfMetabolismBonus = 0.2
+	# Default: 5
+	# Range: 0 ~ 7
+	curseOfMetabolismIndexReq = 5
+	# Default: 60
+	# Range: 0 ~ 2000
+	curseOfTensionPenaltyDuration = 60
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	curseOfTensionPenaltyThreshold = 0.1
+	# Default: 200
+	# Range: 0 ~ 2000
+	curseOfTensionTokenMatureTime = 200
+	# Default: 200
+	# Range: 0 ~ 2000
+	curseOfTensionTokenEffectiveTime = 200
+	# Default: 0.2
+	# Range: 0.0 ~ 100.0
+	curseOfTensionDamageBonus = 0.2
+	# Default: 5
+	# Range: 1 ~ 100
+	curseOfTensionMaxLevel = 5
+	# Default: 20
+	# Range: 1 ~ 100
+	curseOfPrudenceMaxLevel = 20
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	curseOfPrudenceDamageFactor = 0.5
+	# Default: 40
+	# Range: 1 ~ 200
+	curseOfPrudenceDuration = 40
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	curseOfPrudenceMaxDamage = 0.2
+	#Lower number means enchantment puts less load on items and player
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	curseOfSpellLoadFactor = 1.0
+	#Higher number means player takes more damage
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	curseOfSpellDamageFactor = 1.0
+	#Higher number means mob takes less damage
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	curseOfSpellWeakenFactor = 1.0
+	curseOfInertiaSlot = "necklace#1"
+	curseOfProximitySlot = "bracelet#1"
+	curseOfFleshSlot = "curio#1"
+	curseOfTensionSlot = "hands#1"
+	curseOfPrudenceSlot = "charm#3"
+	curseOfSpellSlot = "hands#1"
+
+[angelic]
+	# Default: 3
+	# Range: 0 ~ 7
+	angelicWingRealityIndex = 3
+	# Default: 0.03
+	# Range: 0.0 ~ 0.1
+	angelicWingBoost = 0.03
+	# Default: 5.0
+	# Range: 0.0 ~ 50.0
+	angelicWingMaxSpeed = 5.0
+	# Default: 4
+	# Range: 0 ~ 7
+	angelicBlessRealityIndex = 4
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	angelicBlessDamageReduction = 0.25
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	angelicBlessAbsorption = 1.0
+	# Default: 5
+	# Range: 0 ~ 7
+	angelicDescentRealityIndex = 5
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	angelicDescentMeleeBonus = 0.5
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	angelicDescentUndeadBonus = 0.5
+	# Default: 6
+	# Range: 0 ~ 7
+	angelicProtectionRealityIndex = 6
+	# Default: 600
+	# Range: 0 ~ 1000000
+	angelicProtectionCoolDown = 600
+	# Default: 7
+	# Range: 0 ~ 7
+	angelicPunishmentRealityIndex = 7
+	# Default: 20
+	# Range: 0 ~ 6000
+	angelicPunishmentCoolDown = 20
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	angelicPunishmentDamageBase = 0.05
+
+[hell]
+	# Default: 3
+	# Range: 0 ~ 7
+	hellfireSkullRealityIndex = 3
+	# Default: 200
+	# Range: 1 ~ 200000
+	hellfireSkullMinimumDuration = 200
+	# Default: 4
+	# Range: 0 ~ 7
+	hellfireReformationRealityIndex = 4
+	# Default: 5
+	# Range: 0 ~ 7
+	eyeOfCursedSoulRealityIndex = 5
+	# Default: 8.0
+	# Range: 0.0 ~ 64.0
+	eyeOfCursedSoulRange = 8.0
+	# Default: 200
+	# Range: 0 ~ 1000000
+	eyeOfCursedSoulCoolDown = 200
+	# Default: 6
+	# Range: 0 ~ 7
+	cursedSoulCrystalRealityIndex = 6
+	# Default: 200
+	# Range: 0 ~ 1000000
+	cursedSoulCrystalTriggerCoolDown = 200
+	# Default: 8.0
+	# Range: 0.0 ~ 64.0
+	cursedSoulCrystalRange = 8.0
+	# Default: 7
+	# Range: 0 ~ 7
+	crownOfDemonRealityIndex = 7
+	# Default: 50
+	# Range: 1 ~ 1000000
+	crownOfDemonBaseHealthThreshold = 50
+	# Default: 24
+	# Range: 0 ~ 128
+	crownOfDemonRange = 24
+
+[shadow]
+	# Default: 3
+	# Range: 0 ~ 7
+	shadowCoreRealityIndex = 3
+	# Default: 100
+	# Range: 0 ~ 60000
+	shadowCoreDurationPerIndex = 100
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	damageReduction = 0.2
+	# Default: 4
+	# Range: 0 ~ 7
+	shadowConvergenceRealityIndex = 4
+	# Default: 0.5
+	# Range: 0.0 ~ 100.0
+	shadowConvergenceHealFactor = 0.5
+	# Default: 5
+	# Range: 0 ~ 7
+	shadowConsolidationRealityIndex = 5
+	# Default: 8.0
+	# Range: 0.0 ~ 64.0
+	shadowConsolidationRange = 8.0
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	shadowConsolidationFactor = 1.0
+	# Default: 20
+	# Range: 0 ~ 100
+	shadowConsolidationDelay = 20
+	# Default: 60
+	# Range: 0 ~ 10000
+	shadowConsolidationCoolDown = 60
+	# Default: 6
+	# Range: 0 ~ 7
+	shadowReformationRealityIndex = 6
+	# Default: 0.5
+	# Range: 0.0 ~ 100.0
+	shadowReformationBonus = 0.5
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	shadowReformationReduction = 0.5
+	# Default: 7
+	# Range: 0 ~ 7
+	voidOverflowRealityIndex = 7
+
+[elemental]
+	# Default: 4
+	# Range: 0 ~ 7
+	windThrustRealityIndex = 4
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	windThrustSpeed = 0.5
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	windThrustDamage = 1.0
+	# Default: 4
+	# Range: 0 ~ 7
+	earthCrushRealityIndex = 4
+	# Default: 1.0
+	# Range: 0.0 ~ 4.0
+	earthCrushThreshold = 1.0
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	earthCrushBonus = 1.0
+	# Default: 4
+	# Range: 0 ~ 7
+	flamingExplosionRealityIndex = 4
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	flamingExplosionBonus = 1.0
+	# Default: 4
+	# Range: 0 ~ 7
+	wavingSpellRealityIndex = 4
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	wavingSpellBonus = 1.0
+	# Default: 4
+	# Range: 0 ~ 7
+	curseRedirectionRealityIndex = 4
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	curseRedirectionBonus = 0.5
+
+[abyssal]
+	# Default: 12
+	# Range: 0 ~ 64
+	abyssalDepthStep = 12
+	# Default: 8
+	# Range: 0 ~ 64
+	abyssalWillDepthStep = 8
+	# Default: 3
+	# Range: 0 ~ 7
+	abyssalTreasureRealityIndex = 3
+	# Default: 4
+	# Range: 0 ~ 7
+	abyssalWatcherRealityIndex = 4
+	# Default: 5
+	# Range: 0 ~ 7
+	abyssalShellRealityIndex = 5
+	# Default: 6
+	# Range: 0 ~ 7
+	abyssalCrownRealityIndex = 6
+	# Default: 7
+	# Range: 0 ~ 7
+	abyssalWillRealityIndex = 7
+	# Default: 0.01
+	# Range: 0.0 ~ 1.0
+	abyssalWatcherRegen = 0.01
+	# Default: 0.2
+	# Range: 0.0 ~ 1.0
+	abyssalShellBonus = 0.2
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	abyssalCrownChance = 0.05
+	# Default: 600
+	# Range: 1 ~ 100000
+	abyssalWillCoolDown = 600
+	# Default: 200
+	# Range: 1 ~ 100000
+	abyssalWillDuration = 200
+
+[barbaric]
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	magicDamageDebuff = 1.0
+	# Default: 3
+	# Range: 0 ~ 7
+	barbaricInstinctRealityIndex = 3
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	barbaricInstinctHeal = 0.1
+	# Default: 40
+	# Range: 0 ~ 1000
+	barbaricInstinctCoolDown = 40
+	# Default: 4
+	# Range: 0 ~ 7
+	barbaricWrathRealityIndex = 4
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	barbaricWrathCritBonus = 0.5
+	# Default: 10.0
+	# Range: 0.0 ~ 1000.0
+	barbaricWrathToughBonus = 10.0
+	# Default: 5
+	# Range: 0 ~ 7
+	barbaricScareRealityIndex = 5
+	# Default: 0.25
+	# Range: 0.0 ~ 10.0
+	barbaricRoarAttack = 0.25
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	barbaricRoarReduction = 0.25
+	# Default: 6
+	# Range: 0 ~ 7
+	barbaricBladeRealityIndex = 6
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	barbaricBladeAttack = 0.5
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	barbaricBladeProjectile = 0.5
+	# Default: 7
+	# Range: 0 ~ 7
+	primalForceRealityIndex = 7
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	primalForceSelfArmor = 1.0
+	# Default: 1.0
+	# Range: 0.0 ~ 100.0
+	primalForceTargetArmor = 1.0
+
+[mutation]
+	# Default: 3
+	# Range: 0 ~ 7
+	infectiveMutationRealityIndex = 3
+	# Default: 4
+	# Range: 0 ~ 7
+	parasiticMutationRealityIndex = 4
+	# Default: 5
+	# Range: 0 ~ 7
+	deformingMutationRealityIndex = 5
+	# Default: 6
+	# Range: 0 ~ 7
+	hostileMutationRealityIndex = 6
+	# Default: 7
+	# Range: 0 ~ 7
+	distortedMutationRealityIndex = 7
+
+[evil]
+	# Default: 3
+	# Range: 0 ~ 7
+	evilSpiritRitualRealityIndex = 3
+	# Default: 0.5
+	# Range: 0.0 ~ 100.0
+	evilSpiritRitualExpRate = 0.5
+	# Default: 4
+	# Range: 0 ~ 7
+	evilSpiritEvokeRealityIndex = 4
+	# Default: 400
+	# Range: 0 ~ 100000
+	evilSpiritEvokeDuration = 400
+	# Default: 60
+	# Range: 0 ~ 10000
+	evilSpiritEvokeCoolDown = 60
+	# Default: 5
+	# Range: 0 ~ 7
+	evilSpiritAwakeningRealityIndex = 5
+	# Default: 0.15
+	# Range: 0.0 ~ 10.0
+	evilSpiritAwakeningMagicBonus = 0.15
+	# Default: 0.1
+	# Range: 0.0 ~ 10.0
+	evilSpiritAwakeningAtkBonus = 0.1
+	# Default: 600
+	# Range: 0 ~ 1000000
+	evilSpiritAwakeningDuration = 600
+	# Default: 5
+	# Range: 0 ~ 1000
+	evilSpiritAwakeningMaxLevel = 5
+	# Default: 6
+	# Range: 0 ~ 7
+	evilSpiritCurseRealityIndex = 6
+	# Default: 0.2
+	# Range: 0.0 ~ 10.0
+	evilSpiritCurseThreshold = 0.2
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	evilSpiritCurseBonus = 1.0
+	# Default: 7
+	# Range: 0 ~ 7
+	evilSpiritWalkRealityIndex = 7
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	evilSpiritWalkMagicBonus = 0.5
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	evilSpiritWalkAtkBonus = 0.5
+	# Default: 600
+	# Range: 0 ~ 1000000
+	evilSpiritWalkCoolDown = 600
+
+[weapon]
+	# Default: 5
+	# Range: 0 ~ 7
+	angelicJudgementRealityIndex = 5
+	# Default: 5
+	# Range: 0 ~ 7
+	doomStarRealityIndex = 5
+	# Default: 5
+	# Range: 0 ~ 7
+	cursedKarmaRealityIndex = 5
+	# Default: 3
+	# Range: 0 ~ 8
+	cursedKarmaExplosionRadius = 3
+	# Default: 300
+	# Range: 0 ~ 1000000
+	cursedKarmaEffectDuration = 300
+	# Default: 5
+	# Range: 0 ~ 7
+	abyssalEdgeRealityIndex = 5
+
+[compat]
+	allowRealityTrait = true
+	# Default: 500
+	# Range: 1 ~ 10000
+	sealOfSwordDifficultyPerBonus = 500
+	# Default: 3
+	# Range: 1 ~ 10000
+	sealOfSwordMaxRealityBonus = 3
+	# Default: 0.5
+	# Range: 0.0 ~ 5.0
+	spellSingularitySpellBonusPerReality = 0.5
+	# Default: 0.5
+	# Range: 0.0 ~ 5.0
+	spellSingularityMagicDamageBonusPerReality = 0.5

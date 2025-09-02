@@ -1,0 +1,16 @@
+{
+  "central_item": "hazennstuff:ruptured",
+  "input_items": [
+    "irons_spellbooks:arcane_ingot",
+    "irons_spellbooks:mithril_scrap",
+    "irons_spellbooks:mana_upgrade_orb",
+    "irons_spellbooks:legendary_ink"
+  ],
+  "result": "hazennstuff:refined",
+  "particle_type": "minecraft:crit",
+  "color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0
+  }
+}

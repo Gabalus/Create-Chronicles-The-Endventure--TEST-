@@ -1,0 +1,15 @@
+{
+  "type": "farmingforblockheads:market",
+  "category": "farmingforblockheads:magic_coins",
+  "preset": "simple_journey:empty",
+  "payment": {
+    "ingredient": {
+      "item": "magic_coins:silver_coin"
+    },
+    "count": 10
+  },
+  "result": {
+    "count": 1,
+    "item": "apotheosis:sigil_of_socketing"
+  }
+}

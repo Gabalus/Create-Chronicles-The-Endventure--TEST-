@@ -1,0 +1,29 @@
+{
+  "type": "farmingforblockheads:market",
+  "category": "farmingforblockheads:maps",
+  "preset": "simple_journey:empty",
+  "payment": {
+    "ingredient": {
+      "item": "magic_coins:gold_coin"
+    },
+    "count": 3
+  },
+  "result": {
+    "count": 1,
+    "item": "irons_spellbooks:furled_map_ancient",
+    "components":{
+      "irons_spellbooks:furled_map_data":{
+         "destination":"irons_spellbooks:citadel",
+         "descriptionOverride":{
+            "translate":"The Citadel"
+         },
+         "dimension":"minecraft:the_nether"
+      },
+      "minecraft:lore":[
+         "{\"color\":\"gray\",\"translate\":\"[Iron's Spellbooks - Nether]\",\"with\":[{\"translate\":\"The Citadel\"}]}"
+      ],
+      "minecraft:custom_name": "[{\"text\": \"The Citadel Map\"}]"
+    }
+  }
+}
+

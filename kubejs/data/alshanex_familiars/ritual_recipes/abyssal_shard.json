@@ -1,0 +1,16 @@
+{
+  "central_item": "irons_spellbooks:divine_soulshard",
+  "input_items": [
+    "minecraft:ender_pearl",
+    "irons_spellbooks:mithril_ingot",
+    "irons_spellbooks:legendary_ink",
+    "irons_spellbooks:shriving_stone"
+  ],
+  "result": "crystal_chronicles:voidstone_shard",
+  "particle_type": "minecraft:crit",
+  "color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "farmingforblockheads:market",
+  "category": "farmingforblockheads:boss_tokens",
+  "preset": "simple_journey:empty",
+  "payment": {
+    "ingredient": {
+      "item": "kubejs:boss_token"
+    },
+    "count": 1
+  },
+  "result": {
+    "count": 1,
+    "item": "kubejs:lich_eye_fragment_cracked"
+  }
+}

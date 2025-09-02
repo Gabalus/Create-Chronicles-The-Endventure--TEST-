@@ -1,0 +1,261 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "teleporters"
+	group: "781F17A4DC3D0E66"
+	icon: {
+		components: {
+			"ftbquests:missing_item": "createteleporters:custom_portal_on"
+		}
+		id: "ftbquests:missing_item"
+	}
+	id: "2A786FFD5532B025"
+	images: [{
+		color: 14522965
+		height: 1.0d
+		image: "chalk:block/mark/arrow"
+		rotation: 90.0d
+		width: 1.0d
+		x: -15.0d
+		y: 1.5d
+	}]
+	order_index: 5
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6D5015C82CCC85FE"]
+			id: "24A3D36B0BF64712"
+			rewards: [
+				{
+					count: 2
+					id: "6BD1CE5494F71F53"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4539C6F0E298CAEA"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2D414F1EC6A0652F"
+				item: { components: { "ftbquests:missing_item": "createteleporters:teleporter" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["24A3D36B0BF64712"]
+			id: "4AC3792814B46B2D"
+			rewards: [{
+				count: 2
+				id: "7575D4F94FC523D0"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FB4F81DFEC190C4"
+				item: { components: { "ftbquests:missing_item": "createteleporters:tp_rec" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6D5015C82CCC85FE"]
+			id: "6B9E13665837ECA1"
+			rewards: [
+				{
+					count: 2
+					id: "3705CB7756C55F70"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1C166E161B457008"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C90D7966E2800DF"
+				item: { components: { "ftbquests:missing_item": "createteleporters:item_tp" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6B9E13665837ECA1"]
+			id: "5A63AD565C37EA16"
+			rewards: [{
+				count: 2
+				id: "0D3A64A3B20FF979"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CBD83AE7BA37285"
+				item: { components: { "ftbquests:missing_item": "createteleporters:item_tp_rec" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"5A63AD565C37EA16"
+				"4AC3792814B46B2D"
+			]
+			id: "4FFB18F848C88CC5"
+			rewards: [{
+				count: 2
+				id: "2A80A968A123B524"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B5DEE870D7D85FC"
+				item: { components: { "ftbquests:missing_item": "createteleporters:tp_link" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -0.25d
+		}
+		{
+			dependencies: ["6D5015C82CCC85FE"]
+			id: "33E9A4967BA70F29"
+			rewards: [
+				{
+					count: 2
+					id: "468748C74F7A0287"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "45FFAF3BDCEB1E2C"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "14328EE0EB369E66"
+				item: { components: { "ftbquests:missing_item": "createteleporters:custom_portal" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["33E9A4967BA70F29"]
+			id: "5D859F65BB6BA3E0"
+			rewards: [{
+				count: 2
+				id: "75DF45CDAC95E42C"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0252181EC1F0707E"
+				item: { components: { "ftbquests:missing_item": "createteleporters:gravity_stab" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D5015C82CCC85FE"]
+			id: "7FCABCC6BDF8A4EB"
+			rewards: [{
+				count: 2
+				id: "2261890D64606556"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B2152B4829B1D38"
+				item: { components: { "ftbquests:missing_item": "createteleporters:pocket_dimension_remote" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 3.5d
+		}
+		{
+			id: "6D5015C82CCC85FE"
+			rewards: [{
+				count: 2
+				id: "6B46A8FCC6AD96AA"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "2EEAE622B59A18E3"
+				item: { components: { "ftbquests:missing_item": "createteleporters:quantum_fluid_bucket" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["33E9A4967BA70F29"]
+			id: "0192BD88B04CFFA1"
+			rewards: [{
+				count: 2
+				id: "2AFD47A8FFB18D7B"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C6496CB661B7CA6"
+				item: { components: { "ftbquests:missing_item": "createteleporters:adv_tplink" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.0d
+		}
+	]
+}

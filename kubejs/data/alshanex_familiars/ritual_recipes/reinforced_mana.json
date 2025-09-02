@@ -1,0 +1,16 @@
+{
+  "central_item": "hazennstuff:refined",
+  "input_items": [
+    "hazennstuff:zenalite_ingot",
+    "irons_spellbooks:mithril_ingot",
+    "irons_spellbooks:mana_upgrade_orb",
+    "hazennstuff:pyrium_nugget"
+  ],
+  "result": "hazennstuff:reinforced",
+  "particle_type": "minecraft:crit",
+  "color": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0
+  }
+}
