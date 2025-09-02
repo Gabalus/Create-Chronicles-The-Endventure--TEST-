@@ -80,7 +80,7 @@
       ]
     },
     "rewards": [
-      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.3, "operation": "addition" }}
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
     ]
   }
 }
