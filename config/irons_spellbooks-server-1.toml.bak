@@ -302,6 +302,28 @@
 		CooldownInSeconds = 15.0
 		AllowCrafting = true
 
+	[Spells."endersequipment:gigantism"]
+		Enabled = true
+		School = "irons_spellbooks:evocation"
+		MaxLevel = 3
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "RARE"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 210.0
+		AllowCrafting = true
+
+	[Spells."endersequipment:arrow_spray"]
+		Enabled = true
+		School = "irons_spellbooks:evocation"
+		MaxLevel = 10
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "UNCOMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 45.0
+		AllowCrafting = true
+
 	[Spells."irons_spellbooks:fang_strike"]
 		Enabled = true
 		School = "irons_spellbooks:evocation"
@@ -333,6 +355,17 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 15.0
+		AllowCrafting = true
+
+	[Spells."endersequipment:trickery"]
+		Enabled = true
+		School = "irons_spellbooks:evocation"
+		MaxLevel = 1
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 30.0
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:shield"]
@@ -368,6 +401,17 @@
 		CooldownInSeconds = 80.0
 		AllowCrafting = true
 
+	[Spells."endersequipment:minimize"]
+		Enabled = true
+		School = "irons_spellbooks:evocation"
+		MaxLevel = 3
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "RARE"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 210.0
+		AllowCrafting = true
+
 	[Spells."irons_spellbooks:gust"]
 		Enabled = true
 		School = "irons_spellbooks:evocation"
@@ -388,6 +432,17 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 150.0
+		AllowCrafting = true
+
+	[Spells."endersequipment:summon_ravager"]
+		Enabled = true
+		School = "irons_spellbooks:evocation"
+		MaxLevel = 10
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "EPIC"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 100.0
 		AllowCrafting = true
 
 	[Spells."discerning_the_eldritch:boogie_woogie"]
@@ -601,6 +656,28 @@
 		CooldownInSeconds = 30.0
 		AllowCrafting = true
 
+	[Spells."endersequipment:field_of_everlasting_life"]
+		Enabled = true
+		School = "irons_spellbooks:holy"
+		MaxLevel = 10
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "UNCOMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 16.0
+		AllowCrafting = true
+
+	[Spells."endersequipment:greater_wisp"]
+		Enabled = true
+		School = "irons_spellbooks:holy"
+		MaxLevel = 5
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "RARE"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 130.0
+		AllowCrafting = true
+
 	[Spells."irons_spellbooks:fortify"]
 		Enabled = true
 		School = "irons_spellbooks:holy"
@@ -632,6 +709,28 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 80.0
+		AllowCrafting = true
+
+	[Spells."endersequipment:solar_crash"]
+		Enabled = true
+		School = "irons_spellbooks:holy"
+		MaxLevel = 5
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "RARE"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 25.0
+		AllowCrafting = true
+
+	[Spells."endersequipment:sacred_slash"]
+		Enabled = true
+		School = "irons_spellbooks:holy"
+		MaxLevel = 5
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "RARE"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 25.0
 		AllowCrafting = true
 
 	[Spells."cataclysm_spellbooks:summon_koboleton"]
@@ -733,6 +832,17 @@
 		CooldownInSeconds = 90.0
 		AllowCrafting = true
 
+	[Spells."endersequipment:sanctuary"]
+		Enabled = true
+		School = "irons_spellbooks:holy"
+		MaxLevel = 1
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 105.0
+		AllowCrafting = true
+
 	[Spells."irons_spellbooks:cloud_of_regeneration"]
 		Enabled = false
 		School = "irons_spellbooks:holy"
@@ -742,6 +852,17 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 35.0
+		AllowCrafting = true
+
+	[Spells."endersequipment:archangelsaid"]
+		Enabled = true
+		School = "irons_spellbooks:holy"
+		MaxLevel = 3
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "RARE"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 300.0
 		AllowCrafting = true
 
 	#irons_spellbooks:fire
@@ -866,6 +987,17 @@
 		CooldownInSeconds = 10.0
 		AllowCrafting = true
 
+	[Spells."endersequipment:searing_slam"]
+		Enabled = true
+		School = "irons_spellbooks:fire"
+		MaxLevel = 1
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 85.0
+		AllowCrafting = true
+
 	[Spells."cataclysm_spellbooks:hellish_blade"]
 		Enabled = true
 		School = "irons_spellbooks:fire"
@@ -886,6 +1018,17 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 30.0
+		AllowCrafting = true
+
+	[Spells."endersequipment:combustion"]
+		Enabled = true
+		School = "irons_spellbooks:fire"
+		MaxLevel = 5
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "EPIC"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 95.0
 		AllowCrafting = true
 
 	[Spells."codex_of_champions:fire_cluster"]
@@ -930,6 +1073,17 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 20.0
+		AllowCrafting = true
+
+	[Spells."endersequipment:eruption"]
+		Enabled = true
+		School = "irons_spellbooks:fire"
+		MaxLevel = 5
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "UNCOMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 120.0
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:firebolt"]
@@ -996,6 +1150,17 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 30.0
+		AllowCrafting = true
+
+	[Spells."endersequipment:everblaze"]
+		Enabled = true
+		School = "irons_spellbooks:fire"
+		MaxLevel = 5
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "EPIC"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 95.0
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:scorch"]
@@ -1175,6 +1340,17 @@
 		CooldownInSeconds = 20.0
 		AllowCrafting = true
 
+	[Spells."endersequipment:petal_dance"]
+		Enabled = true
+		School = "irons_spellbooks:nature"
+		MaxLevel = 3
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "UNCOMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 85.0
+		AllowCrafting = true
+
 	[Spells."traveloptics:stele_cascade"]
 		Enabled = true
 		School = "irons_spellbooks:nature"
@@ -1311,6 +1487,17 @@
 		Enabled = true
 		School = "irons_spellbooks:nature"
 		MaxLevel = 8
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "RARE"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 90.0
+		AllowCrafting = true
+
+	[Spells."endersequipment:petal_ward"]
+		Enabled = true
+		School = "irons_spellbooks:nature"
+		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
 		ManaCostMultiplier = 1.0
@@ -1628,6 +1815,17 @@
 		CooldownInSeconds = 120.0
 		AllowCrafting = true
 
+	[Spells."endersequipment:comet"]
+		Enabled = true
+		School = "irons_spellbooks:ender"
+		MaxLevel = 5
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 50.0
+		AllowCrafting = true
+
 	[Spells."traveloptics:orbital_void"]
 		Enabled = true
 		School = "irons_spellbooks:ender"
@@ -1705,6 +1903,17 @@
 		CooldownInSeconds = 40.0
 		AllowCrafting = true
 
+	[Spells."endersequipment:magic_barrage"]
+		Enabled = true
+		School = "irons_spellbooks:ender"
+		MaxLevel = 5
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "RARE"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 50.0
+		AllowCrafting = true
+
 	[Spells."cataclysm_spellbooks:void_bulwark"]
 		Enabled = true
 		School = "irons_spellbooks:ender"
@@ -1747,6 +1956,17 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 180.0
+		AllowCrafting = true
+
+	[Spells."endersequipment:supernova"]
+		Enabled = true
+		School = "irons_spellbooks:ender"
+		MaxLevel = 1
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 600.0
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:magic_arrow"]
@@ -1981,6 +2201,17 @@
 		CooldownInSeconds = 360.0
 		AllowCrafting = true
 
+	[Spells."endersequipment:frostedslam"]
+		Enabled = true
+		School = "irons_spellbooks:ice"
+		MaxLevel = 3
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "EPIC"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 65.0
+		AllowCrafting = true
+
 	[Spells."irons_spellbooks:snowball"]
 		Enabled = true
 		School = "irons_spellbooks:ice"
@@ -2113,6 +2344,139 @@
 		CooldownInSeconds = 12.0
 		AllowCrafting = true
 
+	[Spells."endersequipment:snow_grave"]
+		Enabled = true
+		School = "irons_spellbooks:ice"
+		MaxLevel = 5
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "EPIC"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 130.0
+		AllowCrafting = true
+
+	[Spells."endersequipment:below_zero"]
+		Enabled = true
+		School = "irons_spellbooks:ice"
+		MaxLevel = 1
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 120.0
+		AllowCrafting = true
+
+	[Spells."endersequipment:blizzard_armor"]
+		Enabled = true
+		School = "irons_spellbooks:ice"
+		MaxLevel = 5
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "EPIC"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 120.0
+		AllowCrafting = true
+
+	#endersequipment:blade
+	[Spells."endersequipment:slam"]
+		Enabled = true
+		School = "endersequipment:blade"
+		MaxLevel = 5
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "COMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 35.0
+		AllowCrafting = true
+
+	[Spells."endersequipment:hone_edge"]
+		Enabled = true
+		School = "endersequipment:blade"
+		MaxLevel = 3
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "EPIC"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 200.0
+		AllowCrafting = true
+
+	[Spells."endersequipment:overwhelming_force"]
+		Enabled = true
+		School = "endersequipment:blade"
+		MaxLevel = 3
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 180.0
+		AllowCrafting = true
+
+	[Spells."endersequipment:quick_slice"]
+		Enabled = true
+		School = "endersequipment:blade"
+		MaxLevel = 5
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "RARE"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 20.0
+		AllowCrafting = true
+
+	[Spells."endersequipment:flurry"]
+		Enabled = true
+		School = "endersequipment:blade"
+		MaxLevel = 5
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "RARE"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 60.0
+		AllowCrafting = true
+
+	[Spells."endersequipment:slash"]
+		Enabled = true
+		School = "endersequipment:blade"
+		MaxLevel = 8
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "COMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 10.0
+		AllowCrafting = true
+
+	[Spells."endersequipment:sword_stance"]
+		Enabled = true
+		School = "endersequipment:blade"
+		MaxLevel = 5
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "UNCOMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 80.0
+		AllowCrafting = true
+
+	[Spells."endersequipment:final_breath"]
+		Enabled = true
+		School = "endersequipment:blade"
+		MaxLevel = 1
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 90.0
+		AllowCrafting = true
+
+	[Spells."endersequipment:sword_path"]
+		Enabled = true
+		School = "endersequipment:blade"
+		MaxLevel = 5
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "UNCOMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 10.0
+		AllowCrafting = true
+
 	#irons_spellbooks:eldritch
 	[Spells."traveloptics:blackout"]
 		Enabled = true
@@ -2123,6 +2487,28 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 120.0
+		AllowCrafting = true
+
+	[Spells."endersequipment:ebony_armor"]
+		Enabled = true
+		School = "irons_spellbooks:eldritch"
+		MaxLevel = 3
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 300.0
+		AllowCrafting = true
+
+	[Spells."endersequipment:warden_curse"]
+		Enabled = true
+		School = "irons_spellbooks:eldritch"
+		MaxLevel = 3
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 250.0
 		AllowCrafting = true
 
 	[Spells."gametechbcs_spellbooks:blackout"]
@@ -2268,6 +2654,17 @@
 		CooldownInSeconds = 15.0
 		AllowCrafting = true
 
+	[Spells."endersequipment:tentacle_whip"]
+		Enabled = true
+		School = "irons_spellbooks:eldritch"
+		MaxLevel = 8
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 15.0
+		AllowCrafting = true
+
 	[Spells."traveloptics:abyssal_blast"]
 		Enabled = true
 		School = "irons_spellbooks:eldritch"
@@ -2277,6 +2674,17 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 22.0
+		AllowCrafting = true
+
+	[Spells."endersequipment:madness_wave"]
+		Enabled = true
+		School = "irons_spellbooks:eldritch"
+		MaxLevel = 4
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 55.0
 		AllowCrafting = true
 
 	[Spells."traveloptics:reversal"]
@@ -2321,6 +2729,17 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 3.0
+		AllowCrafting = true
+
+	[Spells."endersequipment:pale_flame"]
+		Enabled = true
+		School = "irons_spellbooks:eldritch"
+		MaxLevel = 1
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 200.0
 		AllowCrafting = true
 
 	[Spells."gametechbcs_spellbooks:spectral_blink"]
@@ -2601,6 +3020,17 @@
 		CooldownInSeconds = 12.0
 		AllowCrafting = true
 
+	[Spells."endersequipment:heartwrench"]
+		Enabled = true
+		School = "irons_spellbooks:blood"
+		MaxLevel = 10
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "UNCOMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 85.0
+		AllowCrafting = true
+
 	[Spells."irons_spellbooks:acupuncture"]
 		Enabled = true
 		School = "irons_spellbooks:blood"
@@ -2610,6 +3040,17 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 20.0
+		AllowCrafting = true
+
+	[Spells."endersequipment:dark_ritual"]
+		Enabled = true
+		School = "irons_spellbooks:blood"
+		MaxLevel = 1
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 65.0
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:blood_needles"]
@@ -2623,6 +3064,28 @@
 		CooldownInSeconds = 10.0
 		AllowCrafting = true
 
+	[Spells."endersequipment:anubis"]
+		Enabled = true
+		School = "irons_spellbooks:blood"
+		MaxLevel = 1
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 1000.0
+		AllowCrafting = true
+
+	[Spells."endersequipment:judgement_scale"]
+		Enabled = true
+		School = "irons_spellbooks:blood"
+		MaxLevel = 1
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 500.0
+		AllowCrafting = true
+
 	[Spells."irons_spellbooks:sacrifice"]
 		Enabled = true
 		School = "irons_spellbooks:blood"
@@ -2634,6 +3097,17 @@
 		CooldownInSeconds = 1.0
 		AllowCrafting = true
 
+	[Spells."endersequipment:strain"]
+		Enabled = true
+		School = "irons_spellbooks:blood"
+		MaxLevel = 5
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "EPIC"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 200.0
+		AllowCrafting = true
+
 	[Spells."irons_spellbooks:devour"]
 		Enabled = true
 		School = "irons_spellbooks:blood"
@@ -2643,6 +3117,17 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 20.0
+		AllowCrafting = true
+
+	[Spells."endersequipment:withering_touch"]
+		Enabled = true
+		School = "irons_spellbooks:blood"
+		MaxLevel = 6
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "UNCOMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 160.0
 		AllowCrafting = true
 
 	[Spells."traveloptics:blood_howl"]
@@ -2667,6 +3152,17 @@
 		CooldownInSeconds = 1.0
 		AllowCrafting = true
 
+	[Spells."endersequipment:lord_of_decay"]
+		Enabled = true
+		School = "irons_spellbooks:blood"
+		MaxLevel = 1
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 210.0
+		AllowCrafting = true
+
 	[Spells."gametechbcs_spellbooks:crimson_downpour"]
 		Enabled = true
 		School = "irons_spellbooks:blood"
@@ -2689,6 +3185,17 @@
 		CooldownInSeconds = 10.0
 		AllowCrafting = true
 
+	[Spells."endersequipment:boilingblood"]
+		Enabled = true
+		School = "irons_spellbooks:blood"
+		MaxLevel = 8
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "RARE"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 30.0
+		AllowCrafting = true
+
 	[Spells."alshanex_familiars:summon_shadows"]
 		Enabled = true
 		School = "irons_spellbooks:blood"
@@ -2700,6 +3207,17 @@
 		CooldownInSeconds = 150.0
 		AllowCrafting = true
 
+	[Spells."endersequipment:bloodwave"]
+		Enabled = true
+		School = "irons_spellbooks:blood"
+		MaxLevel = 6
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "EPIC"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 80.0
+		AllowCrafting = true
+
 	[Spells."gametechbcs_spellbooks:call_forth_the_dead_king"]
 		Enabled = true
 		School = "irons_spellbooks:blood"
@@ -2709,6 +3227,17 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 3600.0
+		AllowCrafting = true
+
+	[Spells."endersequipment:testing_spell"]
+		Enabled = true
+		School = "irons_spellbooks:blood"
+		MaxLevel = 5
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "EPIC"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 200.0
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:ray_of_siphoning"]
@@ -2856,6 +3385,17 @@
 		CooldownInSeconds = 25.0
 		AllowCrafting = true
 
+	[Spells."endersequipment:shocking_punch"]
+		Enabled = true
+		School = "irons_spellbooks:lightning"
+		MaxLevel = 3
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "EPIC"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 65.0
+		AllowCrafting = true
+
 	[Spells."irons_spellbooks:ball_lightning"]
 		Enabled = true
 		School = "irons_spellbooks:lightning"
@@ -2909,6 +3449,17 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 16.0
+		AllowCrafting = true
+
+	[Spells."endersequipment:overcharge"]
+		Enabled = true
+		School = "irons_spellbooks:lightning"
+		MaxLevel = 1
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 105.0
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:shockwave"]
@@ -2966,6 +3517,17 @@
 		CooldownInSeconds = 45.0
 		AllowCrafting = true
 
+	[Spells."endersequipment:thunderous_leap"]
+		Enabled = true
+		School = "irons_spellbooks:lightning"
+		MaxLevel = 10
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "COMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 3.0
+		AllowCrafting = true
+
 	[Spells."irons_spellbooks:thunderstorm"]
 		Enabled = true
 		School = "irons_spellbooks:lightning"
@@ -2997,170 +3559,4 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 40.0
-		AllowCrafting = true
-
-	#ess_requiem:mind
-	[Spells."ess_requiem:mental_shatter"]
-		Enabled = true
-		School = "ess_requiem:mind"
-		MaxLevel = 8
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 48.0
-		AllowCrafting = true
-
-	[Spells."ess_requiem:overload"]
-		Enabled = true
-		School = "ess_requiem:mind"
-		MaxLevel = 8
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 48.0
-		AllowCrafting = true
-
-	[Spells."ess_requiem:weight_of_the_world"]
-		Enabled = true
-		School = "ess_requiem:mind"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 65.0
-		AllowCrafting = true
-
-	[Spells."ess_requiem:to_stand_before_me"]
-		Enabled = true
-		School = "ess_requiem:mind"
-		MaxLevel = 8
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "EPIC"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 65.0
-		AllowCrafting = true
-
-	[Spells."ess_requiem:a_moment_in_time"]
-		Enabled = true
-		School = "ess_requiem:mind"
-		MaxLevel = 1
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "LEGENDARY"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 300.0
-		AllowCrafting = true
-
-	[Spells."ess_requiem:corpse_explosion"]
-		Enabled = true
-		School = "irons_spellbooks:blood"
-		MaxLevel = 1
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "LEGENDARY"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 5.0
-		AllowCrafting = true
-
-	[Spells."ess_requiem:necrotic_burst"]
-		Enabled = true
-		School = "irons_spellbooks:blood"
-		MaxLevel = 5
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "EPIC"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 65.0
-		AllowCrafting = true
-
-	[Spells."ess_requiem:summon_skulls"]
-		Enabled = true
-		School = "irons_spellbooks:blood"
-		MaxLevel = 4
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 100.0
-		AllowCrafting = true
-
-	[Spells."ess_requiem:reaper"]
-		Enabled = true
-		School = "irons_spellbooks:blood"
-		MaxLevel = 5
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "EPIC"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 100.0
-		AllowCrafting = true
-
-	[Spells."ess_requiem:boiling_blood"]
-		Enabled = true
-		School = "irons_spellbooks:blood"
-		MaxLevel = 8
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 30.0
-		AllowCrafting = true
-
-	[Spells."ess_requiem:strain"]
-		Enabled = true
-		School = "irons_spellbooks:blood"
-		MaxLevel = 5
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "EPIC"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 120.0
-		AllowCrafting = true
-
-	[Spells."ess_requiem:rip_and_tear"]
-		Enabled = true
-		School = "irons_spellbooks:blood"
-		MaxLevel = 8
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 80.0
-		AllowCrafting = true
-
-	[Spells."ess_requiem:wretch"]
-		Enabled = true
-		School = "irons_spellbooks:blood"
-		MaxLevel = 6
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "EPIC"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 15.0
-		AllowCrafting = true
-
-	[Spells."ess_requiem:decaying_will"]
-		Enabled = true
-		School = "irons_spellbooks:blood"
-		MaxLevel = 1
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "LEGENDARY"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 85.0
-		AllowCrafting = true
-
-	[Spells."ess_requiem:pact_of_the_dead"]
-		Enabled = true
-		School = "irons_spellbooks:blood"
-		MaxLevel = 5
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 210.0
 		AllowCrafting = true
