@@ -82,5 +82,679 @@
     "rewards": [
       { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
     ]
+  },
+  "evasion+0.08%_and_energy_shield+1": {
+    "title": "Evasion and Energy Shield",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:slime_ball"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l+0.08%§r §9to Evasion Rating\n §9§l+1§r §9to Energy Shield", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
+  },
+  "atribute_dexterity+1": {
+    "title": "Dexterity",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:lime_dye"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l+1§r §9to Dexterity", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
+  },
+  "skill_speed+1%": {
+    "title": "Skill Speed",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:light_blue_dye"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l+1%§r §9to Skill Speed", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
+  },
+  "atribute_intelligense+1": {
+    "title": "Intelligense",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blue_dye"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l+1§r §9to Intelligense", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
+  },
+  "evasion+1.2%_and_energy_shield+1.2%": {
+    "title": "Evasion and Energy Shield",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:slime_ball"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l+1.2%§r §9to Evasion Rating\n §9§l+1.2%§r §9to Energy Shield", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
+  },
+  "mana_regeneration+1%": {
+    "title": "Mana Regeneration",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:light_blue_dye"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l+1%§r §9to Mana Regeneration", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
+  },
+  "critical_damage+1.5%": {
+    "title": "Critical Damage",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l+1.5%§r §9to Critical Damage", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
+  },
+  "melee_damage+3%": {
+    "title": "Melee Damage",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:red_dye"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l+3%§r §9to Melee Damage", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
+  },
+  "+2%increased_attack_and_cast_speed_+1_to_dexterity_and_intelligence": {
+    "title": "Flow Like Water",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:light_blue_dye"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l+2%§r §9to Increased Attack and Cast Speed\n §9§l+1§r §9to Dexterity and Intelligence", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
+  },
+  "4%_increased_movement_speed_3%_increased_mana_regeneration_rate_+1_to_dexterity_and_intelligence": {
+    "title": "Step Like Mist",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blue_dye"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l+4%§r §9to increased Movement Speed\n §9§l+3%§r §9to increased Movement Speed\n  §9§l+1%§r §9to Dexterity and Intelligence", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
+  },
+  "+1.2%_increased_evasion_rating_+1.2%_increased_maximum_energy_shield": {
+    "title": "Evasion and Energy Shield",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:slime_ball"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l+1.2%§r §9to increased Evasion Rating\n §9§l+1.2%§r §9to increased maximum Energy Shield", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
+  },
+  "+5%_increased_evasion_rating_+5%_increased_maximum_energy_shield": {
+    "title": "Mindful Awareness",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:slime_ball"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l+5%§r §9to increased Evasion Rating\n §9§l+5%§r §9to increased maximum Energy Shield", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
+  },
+  "gain_0.2_life_per_enemy_killed": {
+    "title": "Life on Kill",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:red_dye"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l0.2§r §9to Life on Kill", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
+  },
+  "gain_1_life_per_enemy_killed": {
+    "title": "Life from Death",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:red_dye"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l1§r §9to Life from Death", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
+  },
+  "1.5%_faster_start_of_energy_shield_recharge": {
+    "title": "Energy Shield Delay",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blue_dye"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l1.5%§r §9to Energy Shield Delay", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
+  },
+  "10%_faster_start_of_energy_shield_recharge": {
+    "title": "Mystic Stance",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blue_dye"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l10%§r §9to Mystic Stance", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
+  },
+  "gain_1%_of_damage_as_extra_cold_damage": {
+    "title": "Freeze",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blue_dye"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l1%§r §9to Freeze", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
+  },
+  "gain_5%_of_damage_as_extra_cold_damage": {
+    "title": "Essence of the Mountain",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blue_dye"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l5%§r §9to Essence of the Mountain", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
+  },
+  "3%_increased_skill_speed_3%_increased_mana_regeneration_rate": {
+    "title": "Flow State",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blue_dye"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l3%§r §9to increased Skill Speed\n §9§l3%§r §9to increased Mana Regeneration Rate", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
+  },
+  "1%_increased_skill_speed": {
+    "title": "Skill Speed",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blue_dye"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l1%§r §9to increased Skill Speed", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
+  },
+  "5%_increased_ritical_hit_chance": {
+    "title": "Critical Chance",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l5%§r §9to increased Critical Hit Chance", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
+  },
+  "10%_increased_damage_if_you've_dealt_a_critical_hit_in_the_past_8_seconds": {
+    "title": "Crashing Wave",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l10%§r §9to increased Damage if you've dealt a Critical Hit in the past 8 seconds", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
+  },
+  "gain_3%_of_damage_as_extra_lightning_damage": {
+    "title": "Storm",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blue_dye"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l3%§r §9to Damage as Extra Lightning Damage", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
+  },
+  "gain_5%_of_damage_as_extra_lightning_damage": {
+    "title": "Essence of the Storm",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blue_dye"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l5%§r §9to Damage as Extra Lightning Damage", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
   }
+  
+  
 }
