@@ -40,3 +40,6 @@ whitelist.json
 config/fabric
 config/iris.properties
 config/ftbchunks-client.snbt
+config/sodium-fingerprint.json
+config/sodium-options.json
+config/emi.css
