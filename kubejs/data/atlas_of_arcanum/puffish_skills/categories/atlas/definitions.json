@@ -754,6 +754,258 @@
     "rewards": [
       { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
     ]
+  },
+  "3%_of_damage_taken_recouped_as_life": {
+    "title": "Life Recoup",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:red_dye"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l3%§r §9to of Damage taken Recouped as Life", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
+  },
+  "+2_to_maximum_life_5%_of_damage_taken_recouped_as_life": {
+    "title": "Infused Flesh",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:red_dye"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l+2§r §9to to maximum Life\n §9§l+5%§r §9to of Damage taken Recouped as Life", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
+  },
+  "3%_increased_mana_regeneration_rate_3%_increased_lightning_damage": {
+    "title": " Lightning Damage and Mana Regeneration",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blue_dye"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l+3%§r §9to increased Mana Regeneration Rate\n §9§l+3%§r §9to increased Lightning Damage", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
+  },
+  "8%_increased_mana_regeneration_rate_if_you_inflict_lightning_damage": {
+    "title": "Alternating Current",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blue_dye"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l8%§r §9to Increased Mana Regeneration Rate if you Inflict Lightning Damage", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
+  },
+  "gain_1_life_per_enemy_killed_1%_chance_to_recover_all_life_when_you_kill_an_enemy": {
+    "title": "Taste for Blood",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:red_dye"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l1§r §9to Life per Enemy Killed §9§l1%§r §9to chance to Recover all Life when you Kill an Enemy", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
+  },
+  "5%_gain_mana_leeched": {
+    "title": "Mana Leech",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blue_dye"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l5%§r §9to Gain Mana Leeched", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
+  },
+  "recover_2%_of_maximum_mana_on_kill": {
+    "title": "Siphon",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blue_dye"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l2%§r §9to Recover 2% of maximum Mana on Kill", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
+  },
+  "Pin and Run": {
+    "title": "Pin and Run",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:green_dye"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l §r §9to Pin and Run", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
+  },
+  "Pin": {
+    "title": "Pin",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:green_dye"
+      }
+    },
+    "frame": {
+      "type": "texture",
+      "data": {
+        "unlocked": "atlas_of_arcanum:textures/frames/passive_unlocked.png",
+        "available": "atlas_of_arcanum:textures/frames/passive_available.png",
+        "locked": "atlas_of_arcanum:textures/frames/passive_locked.png",
+        "excluded": "atlas_of_arcanum:textures/frames/passive_excluded.png"
+      }
+    },
+    "description": {
+      "text": "",
+      "extra": [
+        { "text": "\uE007", "font": "atlas_of_arcanum:abilities" },
+        { "text": " §9§l §r §9to Pin", "italic": false }
+      ]
+    },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.2, "operation": "addition" }}
+    ]
   }
   
   

@@ -36,3 +36,7 @@ usercache.json
 usernamecache.json
 whitelist.json
 /mods
+/journeymap
+config/fabric
+config/iris.properties
+config/ftbchunks-client.snbt
