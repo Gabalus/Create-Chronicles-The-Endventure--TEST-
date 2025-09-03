@@ -40,3 +40,4 @@ whitelist.json
 config/fabric
 config/iris.properties
 config/ftbchunks-client.snbt
+minecraftinstance.json
