@@ -331,11 +331,6 @@
 		# Range: 1.0 ~ 256.0
 		maxStealthDetectionRange = 64.0
 
-	[sound_attract_main.vision]
-		#List of block IDs considered pass-through for vision/LOS checks. Format: 'modid:blockid'.
-		#Entries here will be ignored when checking if a player is visible to a mob.
-		visionPassThroughBlocks = []
-
 #Tacz Integration Configuration
 [tacz]
 	#Enable Tacz gun integration
@@ -445,27 +440,3 @@
 	#Example: AlphaZombie;minecraft:zombie;{IsAlpha:1b};minecraft:entity.player.hurt:30.0:2.0;standing:50.0,sneaking:25.0
 	#To add more profiles, just add more strings to the list.
 	specialMobProfilesRaw = ["GreedyGoblin;minecraft:piglin;;minecraft:block.chest.open:30.0:2.5,minecraft:entity.player.death:50.0:3.0;standing:40.0,sneaking:20.0,crawling:10.0", "SmartZombie;minecraft:zombie;{IsAlpha:1b};minecraft:entity.player.hurt:30.0:2.0;standing:80.0,sneaking:45.0,crawling:15.0", "InsaneVillager;minecraft:villager;;minecraft:wooden_door.open:25.0:1.5,minecraft:block.barrel.open:20.0:1.0;"]
-
-	[muffling.block_breaking]
-		#Enable mobs to break blocks that obstruct pathing when stuck.
-		enableBlockBreaking = false
-		#Global multiplier for block breaking time. Higher means slower breaking.
-		# Default: 1.0
-		# Range: 0.01 ~ 100.0
-		blockBreakTimeMultiplier = 1.0
-		#Only allow breaking if the mob is holding any tool in main hand.
-		blockBreakToolOnly = false
-		#Only allow breaking if the mob is holding a proper tool for the block (faster if true).
-		blockBreakProperToolOnly = false
-		#Require a proper tool to break the block at all.
-		blockBreakProperToolRequired = false
-		#Maximum Y level where mobs are allowed to break blocks (safety).
-		# Default: 320
-		# Range: -2032 ~ 4064
-		blockBreakMaxY = 320
-		#Prevent breaking blocks that have block entities (e.g., chests) to avoid grief.
-		blockBreakBlacklistTileEntities = true
-		#Treat blockBreakBlockList as a whitelist (true) or blacklist (false).
-		blockBreakListAsWhitelist = false
-		#Whitelist/Blacklist of blocks for block breaking, depending on blockBreakListAsWhitelist. Format: 'modid:blockid'.
-		blockBreakBlockList = []

@@ -523,6 +523,62 @@
 		CooldownInSeconds = 90.0
 		AllowCrafting = true
 
+	#ess_requiem:mind
+	[Spells."ess_requiem:mental_shatter"]
+		Enabled = true
+		School = "ess_requiem:mind"
+		MaxLevel = 8
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "UNCOMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 48.0
+		AllowCrafting = true
+
+	[Spells."ess_requiem:overload"]
+		Enabled = true
+		School = "ess_requiem:mind"
+		MaxLevel = 8
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "UNCOMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 48.0
+		AllowCrafting = true
+
+	[Spells."ess_requiem:weight_of_the_world"]
+		Enabled = true
+		School = "ess_requiem:mind"
+		MaxLevel = 10
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "RARE"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 65.0
+		AllowCrafting = true
+
+	[Spells."ess_requiem:to_stand_before_me"]
+		Enabled = true
+		School = "ess_requiem:mind"
+		MaxLevel = 8
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "EPIC"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 65.0
+		AllowCrafting = true
+
+	[Spells."ess_requiem:a_moment_in_time"]
+		Enabled = true
+		School = "ess_requiem:mind"
+		MaxLevel = 1
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 300.0
+		AllowCrafting = true
+
 	#irons_spellbooks:holy
 	[Spells."irons_spellbooks:healing_circle"]
 		Enabled = true
@@ -2601,6 +2657,17 @@
 		CooldownInSeconds = 12.0
 		AllowCrafting = true
 
+	[Spells."ess_requiem:corpse_explosion"]
+		Enabled = true
+		School = "irons_spellbooks:blood"
+		MaxLevel = 1
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 5.0
+		AllowCrafting = true
+
 	[Spells."irons_spellbooks:acupuncture"]
 		Enabled = true
 		School = "irons_spellbooks:blood"
@@ -2634,6 +2701,17 @@
 		CooldownInSeconds = 1.0
 		AllowCrafting = true
 
+	[Spells."ess_requiem:necrotic_burst"]
+		Enabled = true
+		School = "irons_spellbooks:blood"
+		MaxLevel = 5
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "EPIC"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 65.0
+		AllowCrafting = true
+
 	[Spells."irons_spellbooks:devour"]
 		Enabled = true
 		School = "irons_spellbooks:blood"
@@ -2643,6 +2721,61 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 20.0
+		AllowCrafting = true
+
+	[Spells."ess_requiem:summon_skulls"]
+		Enabled = true
+		School = "irons_spellbooks:blood"
+		MaxLevel = 4
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "RARE"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 100.0
+		AllowCrafting = true
+
+	[Spells."ess_requiem:reaper"]
+		Enabled = true
+		School = "irons_spellbooks:blood"
+		MaxLevel = 5
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "EPIC"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 100.0
+		AllowCrafting = true
+
+	[Spells."ess_requiem:boiling_blood"]
+		Enabled = true
+		School = "irons_spellbooks:blood"
+		MaxLevel = 8
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "RARE"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 30.0
+		AllowCrafting = true
+
+	[Spells."ess_requiem:strain"]
+		Enabled = true
+		School = "irons_spellbooks:blood"
+		MaxLevel = 5
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "EPIC"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 120.0
+		AllowCrafting = true
+
+	[Spells."ess_requiem:rip_and_tear"]
+		Enabled = true
+		School = "irons_spellbooks:blood"
+		MaxLevel = 8
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "COMMON"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 80.0
 		AllowCrafting = true
 
 	[Spells."traveloptics:blood_howl"]
@@ -2700,6 +2833,28 @@
 		CooldownInSeconds = 150.0
 		AllowCrafting = true
 
+	[Spells."ess_requiem:wretch"]
+		Enabled = true
+		School = "irons_spellbooks:blood"
+		MaxLevel = 6
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "EPIC"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 15.0
+		AllowCrafting = true
+
+	[Spells."ess_requiem:decaying_will"]
+		Enabled = true
+		School = "irons_spellbooks:blood"
+		MaxLevel = 1
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "LEGENDARY"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 85.0
+		AllowCrafting = true
+
 	[Spells."gametechbcs_spellbooks:call_forth_the_dead_king"]
 		Enabled = true
 		School = "irons_spellbooks:blood"
@@ -2709,6 +2864,17 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 3600.0
+		AllowCrafting = true
+
+	[Spells."ess_requiem:pact_of_the_dead"]
+		Enabled = true
+		School = "irons_spellbooks:blood"
+		MaxLevel = 5
+		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+		MinRarity = "RARE"
+		ManaCostMultiplier = 1.0
+		SpellPowerMultiplier = 1.0
+		CooldownInSeconds = 210.0
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:ray_of_siphoning"]
@@ -2997,170 +3163,4 @@
 		ManaCostMultiplier = 1.0
 		SpellPowerMultiplier = 1.0
 		CooldownInSeconds = 40.0
-		AllowCrafting = true
-
-	#ess_requiem:mind
-	[Spells."ess_requiem:mental_shatter"]
-		Enabled = true
-		School = "ess_requiem:mind"
-		MaxLevel = 8
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 48.0
-		AllowCrafting = true
-
-	[Spells."ess_requiem:overload"]
-		Enabled = true
-		School = "ess_requiem:mind"
-		MaxLevel = 8
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 48.0
-		AllowCrafting = true
-
-	[Spells."ess_requiem:weight_of_the_world"]
-		Enabled = true
-		School = "ess_requiem:mind"
-		MaxLevel = 10
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 65.0
-		AllowCrafting = true
-
-	[Spells."ess_requiem:to_stand_before_me"]
-		Enabled = true
-		School = "ess_requiem:mind"
-		MaxLevel = 8
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "EPIC"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 65.0
-		AllowCrafting = true
-
-	[Spells."ess_requiem:a_moment_in_time"]
-		Enabled = true
-		School = "ess_requiem:mind"
-		MaxLevel = 1
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "LEGENDARY"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 300.0
-		AllowCrafting = true
-
-	[Spells."ess_requiem:corpse_explosion"]
-		Enabled = true
-		School = "irons_spellbooks:blood"
-		MaxLevel = 1
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "LEGENDARY"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 5.0
-		AllowCrafting = true
-
-	[Spells."ess_requiem:necrotic_burst"]
-		Enabled = true
-		School = "irons_spellbooks:blood"
-		MaxLevel = 5
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "EPIC"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 65.0
-		AllowCrafting = true
-
-	[Spells."ess_requiem:summon_skulls"]
-		Enabled = true
-		School = "irons_spellbooks:blood"
-		MaxLevel = 4
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 100.0
-		AllowCrafting = true
-
-	[Spells."ess_requiem:reaper"]
-		Enabled = true
-		School = "irons_spellbooks:blood"
-		MaxLevel = 5
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "EPIC"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 100.0
-		AllowCrafting = true
-
-	[Spells."ess_requiem:boiling_blood"]
-		Enabled = true
-		School = "irons_spellbooks:blood"
-		MaxLevel = 8
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 30.0
-		AllowCrafting = true
-
-	[Spells."ess_requiem:strain"]
-		Enabled = true
-		School = "irons_spellbooks:blood"
-		MaxLevel = 5
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "EPIC"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 120.0
-		AllowCrafting = true
-
-	[Spells."ess_requiem:rip_and_tear"]
-		Enabled = true
-		School = "irons_spellbooks:blood"
-		MaxLevel = 8
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "COMMON"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 80.0
-		AllowCrafting = true
-
-	[Spells."ess_requiem:wretch"]
-		Enabled = true
-		School = "irons_spellbooks:blood"
-		MaxLevel = 6
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "EPIC"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 15.0
-		AllowCrafting = true
-
-	[Spells."ess_requiem:decaying_will"]
-		Enabled = true
-		School = "irons_spellbooks:blood"
-		MaxLevel = 1
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "LEGENDARY"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 85.0
-		AllowCrafting = true
-
-	[Spells."ess_requiem:pact_of_the_dead"]
-		Enabled = true
-		School = "irons_spellbooks:blood"
-		MaxLevel = 5
-		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
-		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
-		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 210.0
 		AllowCrafting = true

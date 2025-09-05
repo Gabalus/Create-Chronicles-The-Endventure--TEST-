@@ -44,3 +44,4 @@ config/sodium-fingerprint.json
 config/sodium-options.json
 config/emi.css
 kubejs/config/probe-settings.json
+minecraftinstance.json

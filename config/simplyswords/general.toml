@@ -7,5 +7,6 @@ enablePassiveParticles = true
 enableUniqueGemSockets = true
 enableTooltipInfoButtons = false
 tooltipInfoButtonsRequireInventoryScreen = false
+containedRemnantTransformFrequency = 18000
 compatGobberEndWeaponsUnbreakable = true
 compatEnableSpellPowerScaling = true

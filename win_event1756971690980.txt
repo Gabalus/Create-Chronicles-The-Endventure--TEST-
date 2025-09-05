@@ -1,0 +1,39 @@
+Detected that Windows has terminated one or more processes within the last minute leading up to the moment of the current Minecraft JVM instance termination,
+so with a very high probability that one of these processes is the Minecraft JVM itself.
+Command used to identify terminated processes:
+ 
+$ErrorActionPreference = 'Continue'; 
+Get-WinEvent -FilterHashtable @{ 
+  LogName='Application'; 
+  Level=2; 
+  StartTime=(Get-Date).AddSeconds(-15) 
+} *>&1 | Format-Table -Wrap -AutoSize | Out-File "C:\Users\beloz\AppData\Local\Temp\win_event1756971690980.txt" -Encoding UTF8
+ 
+If no java.exe (or related JVM processes) are listed below, you can disregard this message.
+To get more information about such errors:
+1) Open Windows Event Viewer (Win+R -> eventvwr.msc -> Enter).
+2) Click "Windows Logs" -> "Application".
+3) Look for the latest Error you have.
+ 
+ ﻿
+
+   ProviderName: Application Error
+
+TimeCreated           Id LevelDisplayName Message                                                                      
+-----------           -- ---------------- -------                                                                      
+04.09.2025 10:41:27 1000 Ошибка           Имя сбойного приложения: javaw.exe, версия: 21.0.7.0, метка времени: 0x1bc973
+                                          90                                                                           
+                                          Имя сбойного модуля: OpenAL.dll, версия: 1.23.1.0, метка времени: 0x647635a1 
+                                          Код исключения: 0xc0000409                                                   
+                                          Смещение ошибки: 0x00000000000a2b05                                          
+                                          Идентификатор сбойного процесса: 0x4454                                      
+                                          Время запуска сбойного приложения: 0x1DC1D6DD545E7E4                         
+                                          Путь сбойного приложения: D:\Games\Curse\Install\runtime\java-runtime-delta\w
+                                          indows-x64\java-runtime-delta\bin\javaw.exe                                  
+                                          Путь сбойного модуля: D:\Games\Curse\Install\bin\8dcfdec367e4a230fc0f9a348afc
+                                          68a90b4c391e\OpenAL.dll                                                      
+                                          Идентификатор отчета: 76e131fc-de11-4db0-ae6c-43626e461d8e                   
+                                          Полное имя сбойного пакета:                                                  
+                                          Код приложения, связанного со сбойным пакетом:                               
+
+

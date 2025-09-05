@@ -182,6 +182,9 @@
 			#Format: "modid:mob_id"
 			#Note: Certain vanilla mobs like the Warden are always excluded for stability and cannot be removed.
 			fovExclusionList = ["minecraft:warden"]
+			#Blocks in this allowlist are treated as see-through for line-of-sight checks (e.g., modded glass).
+			#Format: ['modid:block_id']
+			nonBlockingVisionAllowList = []
 
 		#General Stealth System Settings
 		[general.sound_attract_main.general_stealth_settings]
@@ -213,11 +216,6 @@
 			# Default: 4.0
 			# Range: 0.0 ~ 128.0
 			crawlingDetectionRangePlayer = 4.0
-
-		[general.sound_attract_main.vision]
-			#List of block IDs considered pass-through for vision/LOS checks. Format: 'modid:blockid'.
-			#Entries here will be ignored when checking if a player is visible to a mob.
-			visionPassThroughBlocks = ["minecraft:glass_pane", "minecraft:grass", "minecraft:leaves"]
 
 		#How environmental conditions affect stealth.
 		[general.sound_attract_main.environmental_factors]
@@ -507,6 +505,8 @@
 			customLiquidBlocks = []
 			#List of custom air block IDs for sound muffling. Format: 'modid:blockid'. Default: empty list.
 			customAirBlocks = []
+
+		[general.sound_attract_main.profiles]
 			#List of special mob profiles. Each profile is a string with 5 parts separated by ';'.
 			#Format: profileName;mobId;nbtMatcher;soundOverridesString;detectionOverridesString
 			#- profileName: A unique name (e.g., 'AlphaZombie').
@@ -517,33 +517,40 @@
 			#Example: AlphaZombie;minecraft:zombie;{IsAlpha:1b};minecraft:entity.player.hurt:30.0:2.0;standing:50.0,sneaking:25.0
 			#To add more profiles, just add more strings to the list.
 			specialMobProfilesRaw = ["GreedyGoblin;minecraft:piglin;;minecraft:block.chest.open:30.0:2.5,minecraft:entity.player.death:50.0:3.0;standing:40.0,sneaking:20.0,crawling:10.0", "SmartZombie;minecraft:zombie;{IsAlpha:1b};minecraft:entity.player.hurt:30.0:2.0;standing:80.0,sneaking:45.0,crawling:15.0", "InsaneVillager;minecraft:villager;;minecraft:wooden_door.open:25.0:1.5,minecraft:block.barrel.open:20.0:1.0;"]
+			#List of special player profiles. Each string has 3 parts separated by ';'.
+			#Format: profileName;nbtMatcher;detectionOverridesString
+			#- profileName: A unique name (e.g., 'FelineOrigin').
+			#- nbtMatcher: Any compound NBT to match on the player (capabilities included). Use valid SNBT. Keys containing ':' must be quoted (e.g., '{"ForgeCaps":{"origins:origins":{"Origins":{"origins:origin":"origins:feline"}}}}'). Leave empty to match all players.
+			#- detectionOverridesString: Comma-separated 'stanceName:value' (e.g., 'standing:40.0,sneaking:20.0,crawling:10.0'). Valid stances: standing, sneaking, crawling.
+			#Example: FelineOrigin;{"ForgeCaps":{"origins:origins":{"Origins":{"origins:origin":"origins:feline"}}}};standing:24.0,sneaking:10.0,crawling:3.0
+			specialPlayerProfilesRaw = ["FelineOrigin;{\"ForgeCaps\":{\"origins:origins\":{\"Origins\":{\"origins:origin\":\"origins:feline\"}}}};standing:24.0,sneaking:10.0,crawling:3.0", "DinosaurHatched;{\"ForgeCaps\":{\"fossil:player\":{\"HatchedDinosaur\":1b}}};standing:50.0"]
 
-			[general.sound_attract_main.muffling.block_breaking]
-				#Enable mobs to break blocks that obstruct pathing when stuck.
-				enableBlockBreaking = false
-				#Global multiplier for block breaking time. Higher means slower breaking.
-				# Default: 1.0
-				# Range: 0.01 ~ 100.0
-				blockBreakTimeMultiplier = 1.0
-				#Only allow breaking if the mob is holding any tool in main hand.
-				blockBreakToolOnly = false
-				#Only allow breaking if the mob is holding a proper tool for the block (faster if true).
-				blockBreakProperToolOnly = false
-				#Require a proper tool to break the block at all.
-				blockBreakProperToolRequired = false
-				#Maximum Y level where mobs are allowed to break blocks (safety).
-				# Default: 320
-				# Range: -2032 ~ 4064
-				blockBreakMaxY = 320
-				#Prevent breaking blocks that have block entities (e.g., chests) to avoid grief.
-				blockBreakBlacklistTileEntities = true
-				#Treat blockBreakBlockList as a whitelist (true) or blacklist (false).
-				blockBreakListAsWhitelist = false
-				#Whitelist/Blacklist of blocks for block breaking, depending on blockBreakListAsWhitelist. Format: 'modid:blockid'.
-				blockBreakBlockList = []
+		[general.sound_attract_main.block_breaking]
+			#Enable mobs to break blocks that obstruct pathing when stuck.
+			enableBlockBreaking = false
+			#Global multiplier for block breaking time. Higher means slower breaking.
+			# Default: 1.0
+			# Range: 0.01 ~ 100.0
+			blockBreakTimeMultiplier = 1.0
+			#Only allow breaking if the mob is holding any tool in main hand.
+			blockBreakToolOnly = false
+			#Only allow breaking if the mob is holding a proper tool for the block (faster if true).
+			blockBreakProperToolOnly = false
+			#Require a proper tool to break the block at all.
+			blockBreakProperToolRequired = false
+			#Maximum Y level where mobs are allowed to break blocks (safety).
+			# Default: 320
+			# Range: -2032 ~ 4064
+			blockBreakMaxY = 320
+			#Prevent breaking blocks that have block entities (e.g., chests) to avoid grief.
+			blockBreakBlacklistTileEntities = true
+			#Treat blockBreakBlockList as a whitelist (true) or blacklist (false).
+			blockBreakListAsWhitelist = false
+			#Whitelist/Blacklist of blocks for block breaking, depending on blockBreakListAsWhitelist. Format: 'modid:blockid'.
+			blockBreakBlockList = []
 
 #Internal config version. Do not change.
 [version]
 	# Default: 0
-	# Range: 0 ~ 1
-	configVersion = 1
+	# Range: 0 ~ 2
+	configVersion = 2
